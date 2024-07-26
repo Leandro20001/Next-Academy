@@ -14,19 +14,8 @@ export default function App(){
       nowHas(true)
     })})
 
-  const [openChamada,setOpenChamada]= useState(false)
-  const [openNotas,setOpenNotas]= useState(false)
-    
-
-
-
-    useEffect(()=>{
-      db()
-    },[has])
   return(
    <>
-    <ChamadaModal open={openChamada}/>
-    <NotasModal open={openNotas}/>
    <Header/>
 
     <div id="options">

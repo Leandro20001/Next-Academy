@@ -1,12 +1,11 @@
 body{
+  overflow-x: hidden;
   height: 100%;
   margin: 0;
   padding: 0;
   background-color: rgb(246, 249, 255);
 }
 button{cursor: pointer;}
-
-
 
 body{
   font-family: sans-serif;
@@ -16,23 +15,44 @@ body{
   background-color: rgb(246, 249, 255);
 }
 
-.hide{
-  display: none!important;
-}
 .ocult{
   transition: 200ms;
   opacity: 0;
 }
-#banner{
-  transition: 200ms;
-  width: 500px;
-  height: 500px;
-  top: 300px;
-  position: absolute;
-  padding: 12px;
 
+
+
+@keyframes moveCard{
+  to{
+    transform: translateX(-100%);
+    
+  }
+  
 }
-#banner img{width: 100%;}
+.moveCard{animation: moveCard  120s linear;}
+#carrosselDiv{
+  align-content: center;
+  box-sizing: content-box;
+  padding: 40px;
+  display: flex;
+  width: fit-content;
+  height: 600px;
+  margin-top: 200px;
+  background-color: rgb(22, 22, 22);
+}
+
+
+
+
+
+.cursoCard{
+  border-radius: 40px;
+  margin: 50px;
+  width: 50%;
+  min-width: 500px;
+  height: 400px;
+  background-color: black;
+}
 button{cursor: pointer;}
 .logoSpan{
   transition: 200ms;
@@ -418,17 +438,21 @@ header span{
 
 
 .show{
-  transition: 200ms;
+  opacity: 100;
   left: 1px;
+ 
 }
 #sideBar{
+  top: 80px;
   transition: 200ms;
   position: absolute;
   background-color: rgb(3, 5, 35);
   width: 320px;
-  height: 90vh;
+  height: 100%;
 }
 .hide{
-  transition: 200ms;
-  left: -100%;
+  left: -320px;
+  display: block!important;
+
+
 }

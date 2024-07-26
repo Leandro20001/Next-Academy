@@ -19,16 +19,24 @@ export default function AlunosPage(){
             }
            
         }}>open side</button>
-        <div className={show} id="sideBar">
-            sdada
+        <div  id="sideBar" className={show}>
+        <button onClick={()=>{
+            if(show=='hide'){
+                setShow('show')
+            }
+            if(show=='show'){
+                setShow('hide')
+            }
+           
+        }}>open side</button>
             
         </div>
         
 
         <span id="welcomeAlunoPage">Olá, Aluno</span>
 
-        <div id="cursosContainer">
-            <div className="cursoDiv"></div>
+        <div className="moveCard" id="cursosContainer">
+            <div  className="cursoDiv moveCard"></div>
             <div className="cursoDiv"></div>
             <div className="cursoDiv"></div>
             <div className="cursoDiv"></div>
