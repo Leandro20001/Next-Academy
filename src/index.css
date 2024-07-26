@@ -1,0 +1,434 @@
+body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(246, 249, 255);
+}
+button{cursor: pointer;}
+
+
+
+body{
+  font-family: sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(246, 249, 255);
+}
+
+.hide{
+  display: none!important;
+}
+.ocult{
+  transition: 200ms;
+  opacity: 0;
+}
+#banner{
+  transition: 200ms;
+  width: 500px;
+  height: 500px;
+  top: 300px;
+  position: absolute;
+  padding: 12px;
+
+}
+#banner img{width: 100%;}
+button{cursor: pointer;}
+.logoSpan{
+  transition: 200ms;
+  top: 20px;
+  left: 30px;
+  color: rgb(41, 77, 162);
+  position: absolute;
+  margin: 0;
+}
+
+h2{
+  border-radius: 40px;
+  padding: 1rem;
+  transition: 200ms;
+  position: absolute;
+  font-size: 3.2rem;
+  top: 40px;
+  left: 16px;
+  background-color: rgb(41, 77, 162);
+  color: white;
+}
+
+#logo{
+  width: 50px;
+  height: 50px;
+  display: block;
+  color: rgb(3, 13, 37);
+}
+#formDiv{
+  text-align: center;
+  box-sizing: border-box;
+  padding: 12px;
+  position: absolute;
+  top: 20px;
+  right: 0;
+  width: 64%;
+  max-width: 800px;
+  height: 88vh;
+  background-color: rgb(43, 71, 136);
+  border-radius: 20px 0 0 20px;
+  box-shadow: 2px 4px 12px rgb(71, 71, 71);
+}
+#formBlock{
+  height: 88%;
+}
+.formSpan{
+  color: white;
+  font-size: 24px;
+}
+.divSpan{
+  margin: auto;
+  display: block;
+  font-size: 24px;
+  text-align: center;
+  color: rgb(246, 249, 255);
+}
+span#welcome{
+  color: white;
+  display: block;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size:3.2rem;
+}
+.returnBtn{
+  border: none;
+  left: 12px;
+  position: absolute;
+  background-color: rgb(73, 73, 197);
+  color: blue;
+  width: 44px;
+  height: 30px
+}
+.sendBtn{
+  font-weight: bold;
+  font-size: 1.4rem;
+  border: none;
+  width: 148px;
+  height: 48px;
+  background-color: midnightblue;
+  color: white;
+  border-radius: 28px;
+}
+#screen2{
+  box-sizing: border-box;
+  padding: 12px;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 88%;
+}
+#screen2 input{
+  box-sizing: border-box;
+  padding-inline: 16px;
+  border: none;
+  border-radius: 36px;
+  font-size: 20px;
+  margin: 8px 8px 12px 8px;
+  height: 40px;
+  width: 100%;
+}
+#enterSpan{
+  font-size: 24px;
+  display: block;
+  text-align: center;
+  color: rgb(246, 249, 255);
+}
+#functionQuestion{
+  color: white;
+  display: block;
+  text-align: center;
+  font-size: 2rem;
+}
+#functionOptions{
+  width: 370px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+#functionOptions button{
+  transition: 200ms;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  margin-top: 16px;
+  margin-bottom: 10px;
+  background-color: rgb(255, 255, 255);
+  color: midnightblue;
+  font-size: 1.4rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 300px;
+  height: 56px;
+}
+#functionOptions button:hover{
+  transition: 200ms;
+  background-color: rgb(225, 223, 223);
+}
+.sendBtn:hover{background-color: rgb(37, 59, 112);transition: 200ms;}
+a{
+  padding-top: 8px;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  margin-top: 12px;
+  display: block;
+  font-weight: bolder;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#welcomeAlunoPage{
+  display: block;
+  margin:32px auto;
+  text-align: center;
+  color: aliceblue;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  font-size: 48px;
+  font-weight: bold;
+}
+#cursosContainer{
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cursoDiv{
+  cursor: pointer;
+  transition: 400ms;
+  background-color: black;
+  margin-block: 30px;
+  width: 480px;
+  height: 300px;
+  border-radius: 40px;
+}
+.cursoDiv:hover{border-radius: 0;}
+
+header{
+  margin: auto auto 40px auto;
+  text-align: right;
+  justify-content: right;
+  display: flex;
+
+
+}
+header span{
+  width: fit-content;
+  font-size: 24px;
+  font-family: sans-serif;
+  text-decoration: none;
+  margin: auto 20px auto 0px ;
+  color: rgb(41, 77, 162);
+  font-weight: bold;
+}
+.Link{
+  width: fit-content;
+  font-size: 24px;
+  font-family: sans-serif;
+  text-decoration: none;
+  margin: auto 20px auto 0px ;
+  color: rgb(41, 77, 162);
+}
+.linkspace{
+  margin-left: 24px;
+}
+
+#logoSpan{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2.4rem;
+  top: 20px;
+  left: 20px;
+  color: rgb(41, 77, 162);
+  position: absolute;
+  margin: 0;
+}
+#logo{
+  position: absolute;
+  top: 20px;
+  left: 300px;
+  width: 50px;
+  height: 50px;
+}
+#logo img{width: 100%;}
+#options{
+  background-color: rgb(210, 230, 247);
+  padding: 12px;
+  border-radius: 24px;
+  width: 40vw;
+  max-width: 500px;
+  position: absolute;
+  top: 100px;
+  left: 20px;
+}
+#options h1{
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.8rem;
+  top: 20px;
+  left: 20px;
+  color: rgb(41, 77, 162);
+
+}
+#managerBtn button{
+  cursor: pointer;
+  margin-bottom: 12px;
+  width: 100%;
+  height: 48px;
+  font-size: 18px;
+  border-radius: 36px;
+  font-weight:bold;
+  border: none;
+  background-color: rgb(41, 77, 162);
+  color: white;
+}
+#managerBtn button:hover{
+  background-color: rgb(58, 99, 194);
+}
+#managerBtn{
+  display: flex;
+  flex-wrap: wrap;
+}
+.modalDefault{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 3;
+  position: fixed;
+  width: 100%;
+  height: 500px;
+  background-color: aliceblue;
+  border: 1px solid black;
+}
+#alunosChat{
+  box-shadow: 4px 4px 14px rgb(51, 51, 51);
+  overflow-y: scroll;
+  box-sizing: border-box;
+  padding: 12px;
+  color: rgb(41, 77, 162);
+  position: absolute;
+  right: 0;
+  width: 52vw;
+  height: 88vh;
+  border-radius: 24px 0 0 24px;
+  background-color: rgb(225, 234, 255);
+}
+#userPic{
+  margin: 20px 0;
+  cursor: pointer;
+  padding-left: 2px;
+  width: 56px;
+  height: 56px;
+  clip-path: circle();
+  background-color: rgb(39, 48, 111);
+}
+
+#userNameSpan{
+  cursor: pointer;
+  margin: auto;
+  margin-left: 12px;
+  font-size: 22px;
+}
+#classeSession{
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  height: 58px;
+}
+#classeSession span{
+  margin-top: 10px;
+  font-size: 24px;
+  font-family: sans-serif;
+  
+}
+.ContactCard{
+  box-sizing: border-box;
+  padding: 4px;
+  border-radius: 24px;
+  background-color: aliceblue;
+  margin: auto auto 16px auto;
+  width: 92%;
+  display: flex;
+}
+
+#formMsg{
+  width: 500px;
+  flex-wrap: wrap;
+  display: flex;
+  text-align: center;
+  margin: auto;
+}
+#formMsg input{
+  box-sizing: border-box;
+  padding: 24px;
+  border-radius: 32px;
+  margin: auto;
+  font-size: 20px;
+  width: 400px;
+  height: 40px;
+}
+#formMsg button{
+  background-color: rgb(39, 48, 111);
+  clip-path: circle();
+  color: aliceblue ;
+  width: 50px;
+  height: 50px;
+  margin: 28px auto;
+}
+
+
+
+#messagesBox{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(33, 34, 35);
+  margin: 32px auto;
+  border-radius: 32px;
+  height: 400px;
+  width: 92vw;
+}
+#messagesBox span{
+  margin-left: 32px;
+  width: 100%;
+}
+
+
+.show{
+  transition: 200ms;
+  left: 1px;
+}
+#sideBar{
+  transition: 200ms;
+  position: absolute;
+  background-color: rgb(3, 5, 35);
+  width: 320px;
+  height: 90vh;
+}
+.hide{
+  transition: 200ms;
+  left: -100%;
+}
