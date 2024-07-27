@@ -37,7 +37,10 @@ export default function AlunosPage(){
 
         <div className="moveCard" id="cursosContainer">
             <div  className="cursoDiv moveCard"></div>
-            <div className="cursoDiv"></div>
+
+            <div className="cursoDiv">
+                <img src="../imgs/react.jpg" alt="" />
+            </div>
             <div className="cursoDiv"></div>
             <div className="cursoDiv"></div>
             <div className="cursoDiv"></div>
