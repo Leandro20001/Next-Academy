@@ -29,6 +29,7 @@ console.log(form)
     const [hide2,setHide2] = useState()
     return(
     <>
+    <div id="firstLogView">
     <h1 className="logoSpan" id="firstH">Next Academy <div id="logoIco"><img src="../src/imgs/ico.png" alt="" /></div></h1>
     <h2 className="" id="secondH">Melhor Escola De TI Do País</h2>
 
@@ -86,6 +87,56 @@ console.log(form)
             </div>
 
     </div>
+    </div>
+
+    <div id="secondLogView">
+        <h3>Planos Disponiveis</h3>
+
+        <div id="planosDiv">
+            <div className="planoCard">
+                <span className="planoName">Plano Base</span>
+                <x>12x</x><span className="price">R$220,00</span>
+                <ul id="planoBeneficios">
+                <li className="beneficio">KASDNKSDAS</li>
+                <li className="beneficios">SASASNDSAD</li>
+                <li className="beneficio">SADSADAD</li>
+                <li className="beneficio">SDADADSA</li>
+            </ul>
+                <button className="planoButton">Adquirir</button>
+            </div>
+
+            <div className="planoCard">
+            <span className="planoName">Plano Name</span>
+            <span className="price">R$100,00</span>
+            <ul id="planoBeneficios">
+                <li className="beneficio">KASDNKSDAS</li>
+                <li className="beneficios">SASASNDSAD</li>
+                <li className="beneficio">SADSADAD</li>
+                <li className="beneficio">SDADADSA</li>
+            </ul>
+
+
+
+
+            <button className="planoButton">Adquirir</button>
+            </div>
+
+            <div className="planoCard">
+            <span className="planoName">Plano Name</span>
+            <span className="price">R$100,00</span>
+            <ul id="planoBeneficios">
+                <li className="beneficio">KASDNKSDAS</li>
+                <li className="beneficios">SASASNDSAD</li>
+                <li className="beneficio">SADSADAD</li>
+                <li className="beneficio">SDADADSA</li>
+            </ul>
+            <button className="planoButton">Adquirir</button>
+                
+            </div>
+        </div>
+
+    </div>
+
 
     
     </>
